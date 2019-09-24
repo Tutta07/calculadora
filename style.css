@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: rgb(27, 129, 129);
+}
+.calculadora{
+    background: rgba(0, 0,0, 0.3);
+    width: fit-content;
+    margin: auto;
+    margin-top: 35px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+.display{
+    padding: 20px;
+}
+.numbers div{
+ text-align: center;
+}
+.numbers button{
+    border-radius: 10px;
+    background-color: blue;
+}
+.keys{
+    display: flex;
+}
+.numbers{
+    padding: 18px 9px 18px 18px;
+}
+.op{
+    padding: 18px 9px 18px 18px;
+   
+}
+button{
+    margin: 2px;
+    font-size: 20px;
+    padding: 15px 20px;
+    transition: all 0.9s;
+}
+.numbers button:hover{
+ box-shadow: 2px 2px 12px rgb(238, 135, 135);
+ cursor: pointer;
+ transform: scale(0.9);
+}
+.op button{
+    border-radius: 10px;
+    background-color: rgb(81, 91, 221);
+    width: 54px;
+    height: 54px;
+    padding: 9px 15px;
+    
+}
+.op button:hover{
+    box-shadow: 2px 2px 12px rgb(238, 135, 135);
+    cursor: pointer;
+    transform: scale(0.9);
+}
+#resultado{
+    padding: 15px;
+    background-color: rgb(190, 190, 240);
+    color: rgb(3, 18, 31);
+}
+
+
+.show button{
+    width: 100%;
+    color: white;
+    background-color: blue;
+    padding: 0px 18px 0px 18px;
+    border-radius: 20px;
+   
+}
+.show button:hover{
+    box-shadow: 2px 2px 12px rgb(238, 135, 135);
+    cursor: pointer;
+    transform: scale(0.9);
+}
