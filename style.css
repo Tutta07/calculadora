@@ -1,13 +1,20 @@
 body{
     padding: 0;
     margin: 0;
+    background-image: url(imagens/5.png);
+}
+header{
+    padding: 5px;
+    margin-top: 5px;
 }
 h1{
     text-align: center;
-    color: rgb(27, 129, 129);
+    color: rgb(111, 102, 243);
+    font-family: 'Handlee', cursive;
+
 }
 .calculadora{
-    background: rgba(0, 0,0, 0.3);
+    background: rgba(0, 0,0, 0.5);
     width: fit-content;
     margin: auto;
     margin-top: 35px;
@@ -79,4 +86,77 @@ button{
     box-shadow: 2px 2px 12px rgb(238, 135, 135);
     cursor: pointer;
     transform: scale(0.9);
+}
+
+/*Footer*/
+footer{
+    margin: 15px;
+    font-family: 'Handlee', cursive;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: rgb(43, 42, 119);
+    background-color:rgb(0, 0, 0, 0.1);
+   
+ 
+}
+.container-footer-all{
+
+max-width: 1700px;
+margin: auto;
+padding: 5px;
+}
+.container-body{
+ display: flex;
+ justify-content: space-around;
+ padding: 20px;
+}
+
+.colum1{
+ max-width: 600px;
+}
+.colum1 h3{
+ font-size: 22px;
+
+}
+.colum1 row{
+ margin-top: 19px;
+ display: flex;
+}
+.row img{
+ width: 35px;
+ height: 35px;
+}
+ 
+.container-footer{
+ background:rgb(0,0,0,0.4);
+ display:flex;
+ padding: 10px;
+ justify-content:center;
+ color: rgb(4, 4, 68);
+ border-radius: 15px;
+ text-align: center;
+}
+.row label{
+ margin-left: 20px;
+ margin-top: 10px;
+}
+.colum2{
+ max-width: 600px;
+}
+.colum2 h3{
+ font-size: 22px;
+}
+
+.row2 {
+margin-top: 20px;
+display: flex;
+}
+.row2 img{
+ width: 35px;
+ height: 35px;
+}
+.row2 label{
+margin-left: 20px;
+max-width: 200px;
+margin-top: 10px;
 }

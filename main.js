@@ -15,10 +15,10 @@ document.getElementById("d").addEventListener("click",op3);
 document.getElementById("m").addEventListener("click",op4);
 document.getElementById("porciento").addEventListener("click",op5);
 document.getElementById("sr").addEventListener("click",sresultado);
-document.getElementById("limpiar").addEventListener("click",limpiar);
+document.getElementById("limp").addEventListener("click",limpiar);
 
 function limpiar(){
-    document.getElementById('resultado').innerHTML= "";
+    document.getElementById('resultado').innerHTML="";
 }
 function n1(){
     let actual=document.getElementById('resultado').innerHTML;
@@ -113,7 +113,7 @@ function sresultado(){
    let porcien=actual.indexOf("%");
    if(suma!== -1){
        arr=actual.split("+",2);
-       res=parseInt(arr[0]) + parseInt(arr[1]);
+       res=parseInt(arr[0,0]) + parseInt(arr[1,1]);
        document.getElementById("resultado").innerHTML=res;
    }
    else if(resta!== -1){
